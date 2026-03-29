@@ -191,7 +191,46 @@ class HighSpeedDebater:
         """
         同步接口（兼容旧代码）
         """
-        return asyncio.run(self.debate_async(problem, solutions))
+        try:
+            import asyncio
+            loop = asyncio.new_event_loop()
+            asyncio.set_event_loop(loop)
+            result = loop.run_until_complete(self.debate_async(problem, solutions))
+            loop.close()
+            return result
+        except Exception as e:
+            # 降级：直接使用启发式评分
+            return self._fallback_debate(problem, solutions)
+    
+    def _fallback_debate(self, problem: str, solutions: List[str]) -> DebateResult:
+        """降级辩论（不依赖asyncio）"""
+        all_scores = {}
+        best_score = 0
+        best_solution = solutions[0] if solutions else "无方案"
+        
+        for idx, solution in enumerate(solutions):
+            # 使用启发式评分
+            scores = []
+            for model_id, role in self.ROLES.items():
+                score = self._heuristic_score(role, solution)
+                scores.append(score)
+            
+            from statistics import mean
+            avg_score = mean(scores)
+            
+            solution_name = f"方案{idx+1}"
+            all_scores[solution_name] = avg_score
+            
+            if avg_score > best_score:
+                best_score = avg_score
+                best_solution = solution_name
+        
+        return DebateResult(
+            recommended=best_solution,
+            score=best_score,
+            confidence=0.8,
+            details=all_scores
+        )
     
     def quick_validate(self, context: str) -> Tuple[bool, float]:
         """

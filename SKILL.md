@@ -7,6 +7,28 @@ description: |
   
   从8,771行精简到260行，保留核心方法论
   97% code reduction while preserving core methodology
+
+## 触发条件 (Trigger Conditions)
+
+**自动触发**：
+- 用户说 "帮我评估"、"验证这个"、"哪个更好"、"点子王验证"
+- 涉及开源/闭源策略决策
+- CNC报价相关（材料、加工、零件）
+- 多方案选择问题
+
+**集成入口**：
+```python
+from core_v4.uniskill_v4_gateway import process_with_uniskill_v4
+
+result = process_with_uniskill_v4(user_input)
+if result.triggered:
+    if result.needs_more_info:
+        # 返回追问
+        return result.question
+    else:
+        # 返回推荐
+        return result.recommendation
+```
 author: 
   - Timo (miscdd@163.com)
   - Beaver (海狸)

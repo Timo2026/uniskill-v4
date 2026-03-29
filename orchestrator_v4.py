@@ -15,8 +15,13 @@ import gc
 from typing import Dict, List, Optional
 from dataclasses import dataclass
 
-from socratic_engine_v4 import SocraticEngineV4, AnchorResult
-from idea_debater_v4 import HighSpeedDebater, DebateResult
+try:
+    from .socratic_engine_v4 import SocraticEngineV4, AnchorResult
+    from .idea_debater_v4 import HighSpeedDebater, DebateResult
+except ImportError:
+    # 直接导入（用于独立测试）
+    from socratic_engine_v4 import SocraticEngineV4, AnchorResult
+    from idea_debater_v4 import HighSpeedDebater, DebateResult
 
 
 @dataclass
