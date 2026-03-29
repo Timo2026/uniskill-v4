@@ -2,7 +2,7 @@
 
 **版本**: v4.0.0  
 **发布日期**: 2026-03-29  
-**作者**: Timo (miscaodd@gmail.com) + 海狸
+**作者**: Timo (miscdd@163.com) + 海狸
 
 ---
 
@@ -107,7 +107,7 @@ clawhub publish --skill ./core_v4
 | GitHub | https://github.com/timo/uniskill-v4 |
 | PyPI | https://pypi.org/project/uniskill-v4/ |
 | ClawHub | https://clawhub.com/skills/uniskill-v4 |
-| 联系邮箱 | miscaodd@gmail.com |
+| 联系邮箱 | miscdd@163.com |
 
 ---
 
@@ -115,7 +115,7 @@ clawhub publish --skill ./core_v4
 
 **Timo**
 - 角色: 核心设计与实现
-- 邮箱: miscaodd@gmail.com
+- 邮箱: miscdd@163.com
 
 **海狸 (Beaver)**
 - 角色: 架构优化
@@ -124,3 +124,6 @@ clawhub publish --skill ./core_v4
 ---
 
 **发布完成后，请在各平台更新链接！**
+---
+
+> 所有文件均由大帅教练系统生成/dashuai coach

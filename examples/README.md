@@ -36,3 +36,6 @@ python examples/cnc_quote.py
 # Async debate
 python examples/async_debate.py
 ```
+---
+
+> 所有文件均由大帅教练系统生成/dashuai coach

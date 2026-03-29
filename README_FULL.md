@@ -149,7 +149,7 @@ MIT License - See [LICENSE](LICENSE) for details.
 ## 👥 Authors
 
 **Timo** - *Core Design & Implementation*
-- Email: miscaodd@gmail.com
+- Email: miscdd@163.com
 - GitHub: [@timo]
 
 **Beaver (海狸)** - *Architecture Optimization*
@@ -169,7 +169,7 @@ MIT License - See [LICENSE](LICENSE) for details.
 
 For collaboration, enterprise licensing, or questions:
 
-**Email**: miscaodd@gmail.com
+**Email**: miscdd@163.com
 
 ---
 
@@ -280,7 +280,7 @@ MIT许可证 - 详见 [LICENSE](LICENSE)
 ## 👥 作者
 
 **Timo** - *核心设计与实现*
-- 邮箱：miscaodd@gmail.com
+- 邮箱：miscdd@163.com
 - GitHub: [@timo]
 
 **海狸 (Beaver)** - *架构优化*
@@ -292,8 +292,11 @@ MIT许可证 - 详见 [LICENSE](LICENSE)
 
 合作、企业授权或咨询：
 
-**邮箱**：miscaodd@gmail.com
+**邮箱**：miscdd@163.com
 
 ---
 
 **由 Timo & 海狸 用心打造** 🦫
+---
+
+> 所有文件均由大帅教练系统生成/dashuai coach

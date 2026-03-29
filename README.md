@@ -22,7 +22,7 @@ result = quick_debate("Open source?", ["Yes", "No", "Mixed"])
 
 ## Authors
 
-**Timo** - miscaodd@gmail.com  
+**Timo** - miscdd@163.com  
 **Beaver (海狸)** - 靠得住、能干事、在状态
 
 ---
@@ -30,3 +30,6 @@ result = quick_debate("Open source?", ["Yes", "No", "Mixed"])
 ## License
 
 MIT License - See [LICENSE](LICENSE)
+---
+
+> 所有文件均由大帅教练系统生成/dashuai coach

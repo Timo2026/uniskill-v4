@@ -8,7 +8,7 @@ description: |
   从8,771行精简到260行，保留核心方法论
   97% code reduction while preserving core methodology
 author: 
-  - Timo (miscaodd@gmail.com)
+  - Timo (miscdd@163.com)
   - Beaver (海狸)
 license: MIT
 tags:
@@ -79,7 +79,7 @@ result = quick_debate(
 
 ## 作者
 
-**Timo** - miscaodd@gmail.com  
+**Timo** - miscdd@163.com  
 **海狸 (Beaver)** - 靠得住、能干事、在状态
 
 ## 许可证
@@ -89,3 +89,6 @@ MIT License
 ---
 
 **靠得住、能干事、在状态** 🦫
+---
+
+> 所有文件均由大帅教练系统生成/dashuai coach

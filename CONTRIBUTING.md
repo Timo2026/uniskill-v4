@@ -117,7 +117,7 @@ For feature requests, please describe:
 
 - **Issues**: GitHub Issues
 - **Discussions**: GitHub Discussions
-- **Email**: miscaodd@gmail.com
+- **Email**: miscdd@163.com
 - **Authors**: Timo & Beaver
 
 ---
@@ -129,3 +129,6 @@ Every contribution matters. We appreciate your time and effort in making UniSkil
 ---
 
 **靠得住、能干事、在状态** 🦫
+---
+
+> 所有文件均由大帅教练系统生成/dashuai coach

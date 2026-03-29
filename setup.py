@@ -12,8 +12,8 @@ with open("README.md", "r", encoding="utf-8") as f:
 setup(
     name="uniskill-v4",
     version="4.0.0",
-    author="Timo",
-    author_email="miscaodd@gmail.com",
+    author="Timo Cao",
+    author_email="miscdd@163.com",
     description="Minimalist AI Agent Framework - The 3% Solution",
     long_description=long_description,
     long_description_content_type="text/markdown",
